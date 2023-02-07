@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 900px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left: -450px;
+}
+
+/* Table Styling */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border: solid black 3px;
+  border-collapse: collapse;
+  font-family: "Roboto", sans-serif;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+th {
+  font-size: 18pt;
+  text-align: left;
+}
+thead {
+  border-bottom: 10px solid black;
+}
